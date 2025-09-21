@@ -15,12 +15,12 @@ GridWidget::GridWidget(bool useAStar, QWidget* parent)
     setFocusPolicy(Qt::StrongFocus);
     setMinimumSize(W_*cell_, H_*cell_);
 
-    // 맵 초기화
+   
     grid_ = QVector<QVector<int>>(H_, QVector<int>(W_, 0));
     resetSearch();
 
     connect(&timer_, &QTimer::timeout, this, &GridWidget::step);
-    timer_.setInterval(15); // 속도
+    timer_.setInterval(15); 
 }
 
 void GridWidget::resetSearch() {
@@ -78,7 +78,7 @@ void GridWidget::paintEvent(QPaintEvent*) {
     QPainter p(this);
     p.fillRect(rect(), Qt::white);
 
-    // 제목
+    
     {
         QFont f = p.font(); f.setBold(true); p.setFont(f);
         p.setPen(Qt::black);
@@ -86,7 +86,7 @@ void GridWidget::paintEvent(QPaintEvent*) {
         p.drawText(8, 18, title);
     }
 
-    // 방문 영역(파란 톤), 벽(검정)
+   
     for(int i=0;i<H_;++i){
         for(int j=0;j<W_;++j){
             QRect r(j*cell_, i*cell_, cell_, cell_);
@@ -98,7 +98,7 @@ void GridWidget::paintEvent(QPaintEvent*) {
         }
     }
 
-    // 경로(노랑)
+   
     if (hasPath_) {
         auto path = reconstruct();
         if (!path.isEmpty()) {
@@ -113,12 +113,12 @@ void GridWidget::paintEvent(QPaintEvent*) {
         }
     }
 
-    // 그리드 라인
+   
     p.setPen(QColor(220,220,220));
     for(int y=0;y<=H_;++y) p.drawLine(0,y*cell_, W_*cell_, y*cell_);
     for(int x=0;x<=W_;++x) p.drawLine(x*cell_,0, x*cell_, H_*cell_);
 
-    // 시작/목표
+ 
     auto drawCell = [&](QPair<int,int> pt, QColor c){
         auto [x,y]=pt;
         p.fillRect(QRect(y*cell_, x*cell_, cell_, cell_), c);
@@ -181,10 +181,10 @@ void GridWidget::step() {
             }
         }
     }
-    update(); // paintEvent 호출 → 애니메이션
+    update(); 
 }
 
-// ===== MainWindow =====
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
