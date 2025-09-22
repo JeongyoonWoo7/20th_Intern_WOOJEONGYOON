@@ -1,0 +1,1 @@
+cv_bridge:libopencv-dev:qt5-qmake:qtbase5-dev:rclcpp:sensor_msgs:std_msgs

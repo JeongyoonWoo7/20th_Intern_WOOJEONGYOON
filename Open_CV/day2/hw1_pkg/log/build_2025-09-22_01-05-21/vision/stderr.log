@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/vision.dir/src/mainwindow.cpp.o: in function `MainWindow::on_btncapture_clicked()':
+mainwindow.cpp:(.text+0xb4a): undefined reference to `MainWindow::processColorDetection()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/vision.dir/build.make:335: vision] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/vision.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

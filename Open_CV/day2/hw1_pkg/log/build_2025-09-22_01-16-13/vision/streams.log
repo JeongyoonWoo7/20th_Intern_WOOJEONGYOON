@@ -1,0 +1,53 @@
+[0.008s] Invoking command in '/home/jy/colcon_ws/src/vision/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jy/colcon_ws/src/vision/build/vision -- -j16 -l16
+[0.030s] [  9%] [1m[34mGenerating include/vision/moc_mainwindow.cpp[0m
+[0.091s] [ 18%] [32mBuilding CXX object CMakeFiles/vision.dir/src/main.cpp.o[0m
+[0.093s] [ 36%] [32mBuilding CXX object CMakeFiles/vision.dir/src/mainwindow.cpp.o[0m
+[0.093s] [ 36%] [32mBuilding CXX object CMakeFiles/vision.dir/src/qnode.cpp.o[0m
+[0.093s] [ 45%] [32mBuilding CXX object CMakeFiles/vision.dir/include/vision/moc_mainwindow.cpp.o[0m
+[3.154s] In file included from [01m[K/home/jy/colcon_ws/src/vision/src/qnode.cpp:1[m[K:
+[3.154s] [01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MainWindow::updateCameraFrame()[m[K’ cannot be overloaded with ‘[01m[Kvoid MainWindow::updateCameraFrame()[m[K’
+[3.154s]    31 |     void [01;31m[KupdateCameraFrame[m[K();
+[3.154s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.154s] [01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:24:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid MainWindow::updateCameraFrame()[m[K’
+[3.154s]    24 |     void [01;36m[KupdateCameraFrame[m[K();
+[3.154s]       |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.175s] In file included from [01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1[m[K:
+[3.175s] [01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MainWindow::updateCameraFrame()[m[K’ cannot be overloaded with ‘[01m[Kvoid MainWindow::updateCameraFrame()[m[K’
+[3.175s]    31 |     void [01;31m[KupdateCameraFrame[m[K();
+[3.175s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.175s] [01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:24:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid MainWindow::updateCameraFrame()[m[K’
+[3.175s]    24 |     void [01;36m[KupdateCameraFrame[m[K();
+[3.175s]       |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.179s] In file included from [01m[K/home/jy/colcon_ws/src/vision/build/vision/include/vision/moc_mainwindow.cpp:10[m[K:
+[3.179s] [01m[K/home/jy/colcon_ws/src/vision/build/vision/include/vision/../../../../include/vision/mainwindow.hpp:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MainWindow::updateCameraFrame()[m[K’ cannot be overloaded with ‘[01m[Kvoid MainWindow::updateCameraFrame()[m[K’
+[3.179s]    31 |     void [01;31m[KupdateCameraFrame[m[K();
+[3.179s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.179s] [01m[K/home/jy/colcon_ws/src/vision/build/vision/include/vision/../../../../include/vision/mainwindow.hpp:24:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid MainWindow::updateCameraFrame()[m[K’
+[3.179s]    24 |     void [01;36m[KupdateCameraFrame[m[K();
+[3.179s]       |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.188s] In file included from [01m[K/home/jy/colcon_ws/src/vision/src/main.cpp:1[m[K:
+[3.188s] [01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MainWindow::updateCameraFrame()[m[K’ cannot be overloaded with ‘[01m[Kvoid MainWindow::updateCameraFrame()[m[K’
+[3.188s]    31 |     void [01;31m[KupdateCameraFrame[m[K();
+[3.189s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.189s] [01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:24:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid MainWindow::updateCameraFrame()[m[K’
+[3.189s]    24 |     void [01;36m[KupdateCameraFrame[m[K();
+[3.189s]       |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.197s] [01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:105:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid MainWindow::on_btncapture_clicked()[m[K’
+[3.197s]   105 | void [01;31m[KMainWindow[m[K::on_btncapture_clicked() {
+[3.197s]       |      [01;31m[K^~~~~~~~~~[m[K
+[3.197s] [01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:75:6:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid MainWindow::on_btncapture_clicked()[m[K’ previously defined here
+[3.197s]    75 | void [01;36m[KMainWindow[m[K::on_btncapture_clicked() {
+[3.197s]       |      [01;36m[K^~~~~~~~~~[m[K
+[3.204s] [01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::updateStatus(const string&, const string&)[m[K’:
+[3.204s] [01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:206:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindowDesign[m[K’ has no member named ‘[01m[Kwhitelineredstatus[m[K’; did you mean ‘[01m[Kwhitlelineredstatus[m[K’?
+[3.204s]   206 |         ui->[01;31m[Kwhitelineredstatus[m[K->setText(QString::fromStdString(pos));
+[3.204s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.204s]       |             [32m[Kwhitlelineredstatus[m[K
+[3.838s] gmake[2]: *** [CMakeFiles/vision.dir/build.make:139: CMakeFiles/vision.dir/include/vision/moc_mainwindow.cpp.o] Error 1
+[3.838s] gmake[2]: *** Waiting for unfinished jobs....
+[3.871s] gmake[2]: *** [CMakeFiles/vision.dir/build.make:97: CMakeFiles/vision.dir/src/main.cpp.o] Error 1
+[3.887s] gmake[2]: *** [CMakeFiles/vision.dir/build.make:111: CMakeFiles/vision.dir/src/mainwindow.cpp.o] Error 1
+[4.679s] gmake[2]: *** [CMakeFiles/vision.dir/build.make:125: CMakeFiles/vision.dir/src/qnode.cpp.o] Error 1
+[4.680s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/vision.dir/all] Error 2
+[4.680s] gmake: *** [Makefile:146: all] Error 2
+[4.682s] Invoked command in '/home/jy/colcon_ws/src/vision/build/vision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jy/colcon_ws/src/vision/build/vision -- -j16 -l16

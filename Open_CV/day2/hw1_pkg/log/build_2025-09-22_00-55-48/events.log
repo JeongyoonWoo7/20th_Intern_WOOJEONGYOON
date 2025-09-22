@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000342] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.000503] (vision) JobStarted: {'identifier': 'vision'}
+[0.005583] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.005850] (vision) Command: {'cmd': ['/usr/bin/cmake', '/home/jy/colcon_ws/src/vision', '-DCMAKE_INSTALL_PREFIX=/home/jy/colcon_ws/src/vision/install/vision'], 'cwd': '/home/jy/colcon_ws/src/vision/build/vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jy'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jy'), ('OLDPWD', '/home/jy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1727'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jy/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.4/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jy:@/tmp/.ICE-unix/1704,unix/jy:/tmp/.ICE-unix/1704'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f5d7dca6_cc2d_47ba_ab73_274b773d61ee'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.302'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/jy/colcon_ws/install/vision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jy/colcon_ws/src/vision/build/vision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jy/colcon_ws/install/vision:/opt/ros/humble')]), 'shell': False}
+[0.073569] (vision) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099633] (-) TimerEvent: {}
+[0.129258] (vision) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.136689] (vision) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.184632] (vision) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.193969] (vision) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.195455] (vision) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.195780] (vision) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.199702] (-) TimerEvent: {}
+[0.207164] (vision) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.260054] (vision) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.270574] (vision) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.270765] (vision) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.271099] (vision) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.280378] (vision) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299799] (-) TimerEvent: {}
+[0.371308] (vision) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.399897] (-) TimerEvent: {}
+[0.444073] (vision) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.482955] (vision) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.486898] (vision) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.494751] (vision) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.499962] (-) TimerEvent: {}
+[0.505375] (vision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.519115] (vision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.560549] (vision) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.563156] (vision) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600062] (-) TimerEvent: {}
+[0.640529] (vision) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[0.664599] (vision) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[0.697027] (vision) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700166] (-) TimerEvent: {}
+[0.705395] (vision) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.759185] (vision) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.759839] (vision) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[0.800258] (-) TimerEvent: {}
+[0.811149] (vision) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.842588] (vision) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.852664] (vision) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4")\n'}
+[0.900308] (-) TimerEvent: {}
+[0.913273] (vision) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[0.933564] (vision) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.936216] (vision) StdoutLine: {'line': b'-- Build files have been written to: /home/jy/colcon_ws/src/vision/build/vision\n'}
+[0.947132] (vision) CommandEnded: {'returncode': 0}
+[0.947609] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.948233] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jy/colcon_ws/src/vision/build/vision', '--', '-j16', '-l16'], 'cwd': '/home/jy/colcon_ws/src/vision/build/vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jy'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jy'), ('OLDPWD', '/home/jy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1727'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jy/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.4/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jy:@/tmp/.ICE-unix/1704,unix/jy:/tmp/.ICE-unix/1704'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f5d7dca6_cc2d_47ba_ab73_274b773d61ee'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.302'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/jy/colcon_ws/install/vision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jy/colcon_ws/src/vision/build/vision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jy/colcon_ws/install/vision:/opt/ros/humble')]), 'shell': False}
+[0.967213] (vision) StdoutLine: {'line': b'[ 27%] \x1b[1m\x1b[34mGenerating include/vision/moc_mainwindow.cpp\x1b[0m\n'}
+[0.967378] (vision) StdoutLine: {'line': b'[ 27%] \x1b[1m\x1b[34mGenerating ui_mainwindow.h\x1b[0m\n'}
+[0.967429] (vision) StdoutLine: {'line': b'[ 27%] \x1b[1m\x1b[34mGenerating include/vision/moc_qnode.cpp\x1b[0m\n'}
+[0.967586] (vision) StdoutLine: {'line': b'[ 36%] \x1b[1m\x1b[34mGenerating qrc_images.cpp\x1b[0m\n'}
+[1.000411] (-) TimerEvent: {}
+[1.019350] (vision) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/main.cpp.o\x1b[0m\n'}
+[1.019536] (vision) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/mainwindow.cpp.o\x1b[0m\n'}
+[1.019595] (vision) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/qnode.cpp.o\x1b[0m\n'}
+[1.019665] (vision) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/include/vision/moc_mainwindow.cpp.o\x1b[0m\n'}
+[1.019745] (vision) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/include/vision/moc_qnode.cpp.o\x1b[0m\n'}
+[1.019787] (vision) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/qrc_images.cpp.o\x1b[0m\n'}
+[1.100514] (-) TimerEvent: {}
+[1.200803] (-) TimerEvent: {}
+[1.301158] (-) TimerEvent: {}
+[1.401530] (-) TimerEvent: {}
+[1.501821] (-) TimerEvent: {}
+[1.602119] (-) TimerEvent: {}
+[1.702432] (-) TimerEvent: {}
+[1.802733] (-) TimerEvent: {}
+[1.903026] (-) TimerEvent: {}
+[2.003382] (-) TimerEvent: {}
+[2.103752] (-) TimerEvent: {}
+[2.204052] (-) TimerEvent: {}
+[2.304335] (-) TimerEvent: {}
+[2.404637] (-) TimerEvent: {}
+[2.504949] (-) TimerEvent: {}
+[2.605304] (-) TimerEvent: {}
+[2.705550] (-) TimerEvent: {}
+[2.805800] (-) TimerEvent: {}
+[2.906062] (-) TimerEvent: {}
+[3.006330] (-) TimerEvent: {}
+[3.106578] (-) TimerEvent: {}
+[3.206822] (-) TimerEvent: {}
+[3.307070] (-) TimerEvent: {}
+[3.407333] (-) TimerEvent: {}
+[3.507661] (-) TimerEvent: {}
+[3.607957] (-) TimerEvent: {}
+[3.708209] (-) TimerEvent: {}
+[3.808532] (-) TimerEvent: {}
+[3.908807] (-) TimerEvent: {}
+[4.009085] (-) TimerEvent: {}
+[4.109415] (-) TimerEvent: {}
+[4.209783] (-) TimerEvent: {}
+[4.310151] (-) TimerEvent: {}
+[4.410444] (-) TimerEvent: {}
+[4.441306] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::on_btnwhiteline_clicked()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.441483] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:97:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KprocessLaneDetection\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.441536] (vision) StderrLine: {'line': b'   97 |     \x1b[01;31m\x1b[KprocessLaneDetection\x1b[m\x1b[K("whiteline");\n'}
+[4.441575] (vision) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.456202] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::on_btnblueline_clicked()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.456420] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:102:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KprocessLaneDetection\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.456467] (vision) StderrLine: {'line': b'  102 |     \x1b[01;31m\x1b[KprocessLaneDetection\x1b[m\x1b[K("blueline");\n'}
+[4.456501] (vision) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.456534] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.456564] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:107:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::processLaneDetection(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.456595] (vision) StderrLine: {'line': b'  107 | void \x1b[01;31m\x1b[KMainWindow\x1b[m\x1b[K::processLaneDetection(const std::string &mode) {\n'}
+[4.456624] (vision) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.456651] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:107:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::processLaneDetection(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.456707] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1\x1b[m\x1b[K:\n'}
+[4.456735] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:16:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MainWindow\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[4.456766] (vision) StderrLine: {'line': b'   16 | class \x1b[01;36m\x1b[KMainWindow\x1b[m\x1b[K : public QMainWindow {\n'}
+[4.456796] (vision) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.510549] (-) TimerEvent: {}
+[4.610838] (-) TimerEvent: {}
+[4.711125] (-) TimerEvent: {}
+[4.811391] (-) TimerEvent: {}
+[4.911659] (-) TimerEvent: {}
+[5.012051] (-) TimerEvent: {}
+[5.112345] (-) TimerEvent: {}
+[5.187216] (vision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/vision.dir/build.make:111: CMakeFiles/vision.dir/src/mainwindow.cpp.o] Error 1\n'}
+[5.187415] (vision) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[5.212433] (-) TimerEvent: {}
+[5.312683] (-) TimerEvent: {}
+[5.412974] (-) TimerEvent: {}
+[5.513257] (-) TimerEvent: {}
+[5.613514] (-) TimerEvent: {}
+[5.713793] (-) TimerEvent: {}
+[5.814078] (-) TimerEvent: {}
+[5.914310] (-) TimerEvent: {}
+[6.014556] (-) TimerEvent: {}
+[6.114799] (-) TimerEvent: {}
+[6.215070] (-) TimerEvent: {}
+[6.315316] (-) TimerEvent: {}
+[6.415558] (-) TimerEvent: {}
+[6.515872] (-) TimerEvent: {}
+[6.616243] (-) TimerEvent: {}
+[6.716539] (-) TimerEvent: {}
+[6.816828] (-) TimerEvent: {}
+[6.917118] (-) TimerEvent: {}
+[7.017473] (-) TimerEvent: {}
+[7.117790] (-) TimerEvent: {}
+[7.218066] (-) TimerEvent: {}
+[7.318311] (-) TimerEvent: {}
+[7.418529] (-) TimerEvent: {}
+[7.518779] (-) TimerEvent: {}
+[7.619035] (-) TimerEvent: {}
+[7.719297] (-) TimerEvent: {}
+[7.819518] (-) TimerEvent: {}
+[7.919778] (-) TimerEvent: {}
+[8.020085] (-) TimerEvent: {}
+[8.120391] (-) TimerEvent: {}
+[8.220679] (-) TimerEvent: {}
+[8.320983] (-) TimerEvent: {}
+[8.386116] (vision) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/vision.dir/all] Error 2\n'}
+[8.386309] (vision) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.388447] (vision) CommandEnded: {'returncode': 2}
+[8.392955] (vision) JobEnded: {'identifier': 'vision', 'rc': 2}
+[8.393538] (-) EventReactorShutdown: {}

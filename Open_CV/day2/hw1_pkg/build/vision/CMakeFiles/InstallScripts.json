@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jy/colcon_ws/src/vision/build/vision/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

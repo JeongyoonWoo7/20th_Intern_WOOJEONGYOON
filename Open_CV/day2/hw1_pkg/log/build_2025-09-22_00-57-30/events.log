@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000388] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.000420] (vision) JobStarted: {'identifier': 'vision'}
+[0.006033] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.006400] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.006828] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jy/colcon_ws/src/vision/build/vision', '--', '-j16', '-l16'], 'cwd': '/home/jy/colcon_ws/src/vision/build/vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jy'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jy'), ('OLDPWD', '/home/jy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1727'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jy/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.4/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jy:@/tmp/.ICE-unix/1704,unix/jy:/tmp/.ICE-unix/1704'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f5d7dca6_cc2d_47ba_ab73_274b773d61ee'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.302'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/jy/colcon_ws/install/vision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jy/colcon_ws/src/vision/build/vision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jy/colcon_ws/install/vision:/opt/ros/humble')]), 'shell': False}
+[0.026951] (vision) StdoutLine: {'line': b'[  9%] \x1b[1m\x1b[34mGenerating include/vision/moc_mainwindow.cpp\x1b[0m\n'}
+[0.096332] (vision) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/qnode.cpp.o\x1b[0m\n'}
+[0.096537] (vision) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/main.cpp.o\x1b[0m\n'}
+[0.096644] (vision) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/mainwindow.cpp.o\x1b[0m\n'}
+[0.096800] (vision) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/include/vision/moc_mainwindow.cpp.o\x1b[0m\n'}
+[0.099747] (-) TimerEvent: {}
+[0.200005] (-) TimerEvent: {}
+[0.300292] (-) TimerEvent: {}
+[0.400594] (-) TimerEvent: {}
+[0.500925] (-) TimerEvent: {}
+[0.601355] (-) TimerEvent: {}
+[0.701655] (-) TimerEvent: {}
+[0.801992] (-) TimerEvent: {}
+[0.902313] (-) TimerEvent: {}
+[1.002673] (-) TimerEvent: {}
+[1.103030] (-) TimerEvent: {}
+[1.203284] (-) TimerEvent: {}
+[1.303551] (-) TimerEvent: {}
+[1.403853] (-) TimerEvent: {}
+[1.504144] (-) TimerEvent: {}
+[1.604406] (-) TimerEvent: {}
+[1.704678] (-) TimerEvent: {}
+[1.804985] (-) TimerEvent: {}
+[1.905350] (-) TimerEvent: {}
+[2.005723] (-) TimerEvent: {}
+[2.106020] (-) TimerEvent: {}
+[2.206345] (-) TimerEvent: {}
+[2.306662] (-) TimerEvent: {}
+[2.406932] (-) TimerEvent: {}
+[2.507259] (-) TimerEvent: {}
+[2.607581] (-) TimerEvent: {}
+[2.707918] (-) TimerEvent: {}
+[2.808241] (-) TimerEvent: {}
+[2.908539] (-) TimerEvent: {}
+[3.008815] (-) TimerEvent: {}
+[3.109074] (-) TimerEvent: {}
+[3.209342] (-) TimerEvent: {}
+[3.309732] (-) TimerEvent: {}
+[3.410085] (-) TimerEvent: {}
+[3.510382] (-) TimerEvent: {}
+[3.610688] (-) TimerEvent: {}
+[3.710981] (-) TimerEvent: {}
+[3.811391] (-) TimerEvent: {}
+[3.911666] (-) TimerEvent: {}
+[4.011962] (-) TimerEvent: {}
+[4.112309] (-) TimerEvent: {}
+[4.212655] (-) TimerEvent: {}
+[4.312942] (-) TimerEvent: {}
+[4.413240] (-) TimerEvent: {}
+[4.513568] (-) TimerEvent: {}
+[4.613919] (-) TimerEvent: {}
+[4.714209] (-) TimerEvent: {}
+[4.814519] (-) TimerEvent: {}
+[4.914813] (-) TimerEvent: {}
+[5.015124] (-) TimerEvent: {}
+[5.115420] (-) TimerEvent: {}
+[5.215807] (-) TimerEvent: {}
+[5.316104] (-) TimerEvent: {}
+[5.416398] (-) TimerEvent: {}
+[5.516689] (-) TimerEvent: {}
+[5.616977] (-) TimerEvent: {}
+[5.717254] (-) TimerEvent: {}
+[5.817561] (-) TimerEvent: {}
+[5.917855] (-) TimerEvent: {}
+[6.018199] (-) TimerEvent: {}
+[6.118527] (-) TimerEvent: {}
+[6.218858] (-) TimerEvent: {}
+[6.319226] (-) TimerEvent: {}
+[6.419559] (-) TimerEvent: {}
+[6.519887] (-) TimerEvent: {}
+[6.620231] (-) TimerEvent: {}
+[6.720551] (-) TimerEvent: {}
+[6.820873] (-) TimerEvent: {}
+[6.921209] (-) TimerEvent: {}
+[7.021552] (-) TimerEvent: {}
+[7.121976] (-) TimerEvent: {}
+[7.222311] (-) TimerEvent: {}
+[7.322654] (-) TimerEvent: {}
+[7.423053] (-) TimerEvent: {}
+[7.519443] (vision) StdoutLine: {'line': b'[ 54%] \x1b[1m\x1b[32mLinking CXX executable vision\x1b[0m\n'}
+[7.523140] (-) TimerEvent: {}
+[7.623464] (-) TimerEvent: {}
+[7.723895] (-) TimerEvent: {}
+[7.824205] (-) TimerEvent: {}
+[7.924469] (-) TimerEvent: {}
+[8.024740] (-) TimerEvent: {}
+[8.125017] (-) TimerEvent: {}
+[8.225332] (-) TimerEvent: {}
+[8.325641] (-) TimerEvent: {}
+[8.425955] (-) TimerEvent: {}
+[8.526331] (-) TimerEvent: {}
+[8.626637] (-) TimerEvent: {}
+[8.726935] (-) TimerEvent: {}
+[8.827290] (-) TimerEvent: {}
+[8.899426] (vision) StdoutLine: {'line': b'[100%] Built target vision\n'}
+[8.903762] (vision) CommandEnded: {'returncode': 0}
+[8.904167] (vision) JobProgress: {'identifier': 'vision', 'progress': 'install'}
+[8.907202] (vision) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jy/colcon_ws/src/vision/build/vision'], 'cwd': '/home/jy/colcon_ws/src/vision/build/vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jy'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jy'), ('OLDPWD', '/home/jy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1727'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jy/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.4/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jy:@/tmp/.ICE-unix/1704,unix/jy:/tmp/.ICE-unix/1704'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f5d7dca6_cc2d_47ba_ab73_274b773d61ee'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.302'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/jy/colcon_ws/install/vision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jy/colcon_ws/src/vision/build/vision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jy/colcon_ws/install/vision:/opt/ros/humble')]), 'shell': False}
+[8.910730] (vision) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.910928] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/lib/vision/vision\n'}
+[8.913676] (vision) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jy/colcon_ws/src/vision/install/vision/lib/vision/vision" to ""\n'}
+[8.913839] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/include/\n'}
+[8.913914] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/include//vision\n'}
+[8.914010] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/include//vision/mainwindow.hpp\n'}
+[8.914079] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/include//vision/qnode.hpp\n'}
+[8.914182] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/ament_index/resource_index/package_run_dependencies/vision\n'}
+[8.914281] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/ament_index/resource_index/parent_prefix_path/vision\n'}
+[8.914353] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/environment/ament_prefix_path.sh\n'}
+[8.914440] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/environment/ament_prefix_path.dsv\n'}
+[8.914532] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/environment/path.sh\n'}
+[8.914627] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/environment/path.dsv\n'}
+[8.914719] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/local_setup.bash\n'}
+[8.914801] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/local_setup.sh\n'}
+[8.914877] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/local_setup.zsh\n'}
+[8.914973] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/local_setup.dsv\n'}
+[8.915097] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/package.dsv\n'}
+[8.915224] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/ament_index/resource_index/packages/vision\n'}
+[8.915312] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/cmake/visionConfig.cmake\n'}
+[8.915388] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/cmake/visionConfig-version.cmake\n'}
+[8.915477] (vision) StdoutLine: {'line': b'-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/package.xml\n'}
+[8.916635] (vision) CommandEnded: {'returncode': 0}
+[8.926233] (vision) JobEnded: {'identifier': 'vision', 'rc': 0}
+[8.926761] (-) EventReactorShutdown: {}

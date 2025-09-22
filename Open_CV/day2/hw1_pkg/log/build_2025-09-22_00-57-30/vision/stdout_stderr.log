@@ -1,0 +1,29 @@
+[  9%] [1m[34mGenerating include/vision/moc_mainwindow.cpp[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/vision.dir/src/qnode.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/vision.dir/src/main.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/vision.dir/src/mainwindow.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/vision.dir/include/vision/moc_mainwindow.cpp.o[0m
+[ 54%] [1m[32mLinking CXX executable vision[0m
+[100%] Built target vision
+-- Install configuration: ""
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/lib/vision/vision
+-- Set non-toolchain portion of runtime path of "/home/jy/colcon_ws/src/vision/install/vision/lib/vision/vision" to ""
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/include/
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/include//vision
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/include//vision/mainwindow.hpp
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/include//vision/qnode.hpp
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/ament_index/resource_index/package_run_dependencies/vision
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/ament_index/resource_index/parent_prefix_path/vision
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/environment/ament_prefix_path.sh
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/environment/ament_prefix_path.dsv
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/environment/path.sh
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/environment/path.dsv
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/local_setup.bash
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/local_setup.sh
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/local_setup.zsh
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/local_setup.dsv
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/package.dsv
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/ament_index/resource_index/packages/vision
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/cmake/visionConfig.cmake
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/cmake/visionConfig-version.cmake
+-- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/package.xml

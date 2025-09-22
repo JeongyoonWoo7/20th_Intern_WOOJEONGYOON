@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.000204] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.000232] (vision) JobStarted: {'identifier': 'vision'}
+[0.005820] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.006153] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.006538] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jy/colcon_ws/src/vision/build/vision', '--', '-j16', '-l16'], 'cwd': '/home/jy/colcon_ws/src/vision/build/vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jy'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jy'), ('OLDPWD', '/home/jy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1727'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jy/colcon_ws/src/vision/install:/home/jy/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.4/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jy:@/tmp/.ICE-unix/1704,unix/jy:/tmp/.ICE-unix/1704'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f5d7dca6_cc2d_47ba_ab73_274b773d61ee'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.302'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/jy/colcon_ws/src/vision/install/vision:/home/jy/colcon_ws/install/vision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jy/colcon_ws/src/vision/build/vision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jy/colcon_ws/src/vision/install/vision:/home/jy/colcon_ws/install/vision:/opt/ros/humble')]), 'shell': False}
+[0.029326] (vision) StdoutLine: {'line': b'[  9%] \x1b[1m\x1b[34mGenerating include/vision/moc_mainwindow.cpp\x1b[0m\n'}
+[0.095748] (vision) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/main.cpp.o\x1b[0m\n'}
+[0.096529] (vision) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/qnode.cpp.o\x1b[0m\n'}
+[0.096627] (vision) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/mainwindow.cpp.o\x1b[0m\n'}
+[0.097302] (vision) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/include/vision/moc_mainwindow.cpp.o\x1b[0m\n'}
+[0.099327] (-) TimerEvent: {}
+[0.199621] (-) TimerEvent: {}
+[0.299968] (-) TimerEvent: {}
+[0.400286] (-) TimerEvent: {}
+[0.500616] (-) TimerEvent: {}
+[0.600915] (-) TimerEvent: {}
+[0.701328] (-) TimerEvent: {}
+[0.801649] (-) TimerEvent: {}
+[0.901990] (-) TimerEvent: {}
+[1.002245] (-) TimerEvent: {}
+[1.102492] (-) TimerEvent: {}
+[1.202761] (-) TimerEvent: {}
+[1.303074] (-) TimerEvent: {}
+[1.403383] (-) TimerEvent: {}
+[1.503722] (-) TimerEvent: {}
+[1.604086] (-) TimerEvent: {}
+[1.704395] (-) TimerEvent: {}
+[1.804711] (-) TimerEvent: {}
+[1.905040] (-) TimerEvent: {}
+[2.005411] (-) TimerEvent: {}
+[2.105764] (-) TimerEvent: {}
+[2.206074] (-) TimerEvent: {}
+[2.306374] (-) TimerEvent: {}
+[2.406663] (-) TimerEvent: {}
+[2.506964] (-) TimerEvent: {}
+[2.607279] (-) TimerEvent: {}
+[2.707583] (-) TimerEvent: {}
+[2.807872] (-) TimerEvent: {}
+[2.908270] (-) TimerEvent: {}
+[3.008563] (-) TimerEvent: {}
+[3.108857] (-) TimerEvent: {}
+[3.209168] (-) TimerEvent: {}
+[3.309471] (-) TimerEvent: {}
+[3.393880] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateCameraFrame()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.394112] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:62:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.394203] (vision) StderrLine: {'line': b'   62 |     processLaneDetection(\x1b[01;31m\x1b[Kframe\x1b[m\x1b[K);\n'}
+[3.394255] (vision) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.394302] (vision) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.394347] (vision) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[Kcv::Mat\x1b[m\x1b[K\n'}
+[3.394393] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1\x1b[m\x1b[K:\n'}
+[3.394437] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:44:50:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::processLaneDetection(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.394482] (vision) StderrLine: {'line': b'   44 |     void processLaneDetection(\x1b[01;36m\x1b[Kconst std::string &mode\x1b[m\x1b[K);\n'}
+[3.394538] (vision) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.394582] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:63:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMainWindow::processColorDetection(cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.394627] (vision) StderrLine: {'line': b'   63 |     \x1b[01;31m\x1b[KprocessColorDetection(frame)\x1b[m\x1b[K;\n'}
+[3.394674] (vision) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[3.394722] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1\x1b[m\x1b[K:\n'}
+[3.394772] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:45:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::processColorDetection()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.394823] (vision) StderrLine: {'line': b'   45 |     void \x1b[01;36m\x1b[KprocessColorDetection\x1b[m\x1b[K();\n'}
+[3.394873] (vision) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.394921] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:45:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[3.394972] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.395025] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:66:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::processLaneDetection(const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.395079] (vision) StderrLine: {'line': b'   66 | void \x1b[01;31m\x1b[KMainWindow\x1b[m\x1b[K::processLaneDetection(const cv::Mat &frame) {\n'}
+[3.395128] (vision) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.395222] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1\x1b[m\x1b[K:\n'}
+[3.395259] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:44:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::processLaneDetection(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.395293] (vision) StderrLine: {'line': b'   44 |     void \x1b[01;36m\x1b[KprocessLaneDetection\x1b[m\x1b[K(const std::string &mode);\n'}
+[3.395325] (vision) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.395356] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:16:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MainWindow\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[3.395390] (vision) StderrLine: {'line': b'   16 | class \x1b[01;36m\x1b[KMainWindow\x1b[m\x1b[K : public QMainWindow {\n'}
+[3.395440] (vision) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.395512] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:94:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::processColorDetection(const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.395543] (vision) StderrLine: {'line': b'   94 | void \x1b[01;31m\x1b[KMainWindow\x1b[m\x1b[K::processColorDetection(const cv::Mat &frame) {\n'}
+[3.395586] (vision) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.395616] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1\x1b[m\x1b[K:\n'}
+[3.395652] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:45:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::processColorDetection()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.395683] (vision) StderrLine: {'line': b'   45 |     void \x1b[01;36m\x1b[KprocessColorDetection\x1b[m\x1b[K();\n'}
+[3.395713] (vision) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.395742] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:16:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MainWindow\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[3.395776] (vision) StderrLine: {'line': b'   16 | class \x1b[01;36m\x1b[KMainWindow\x1b[m\x1b[K : public QMainWindow {\n'}
+[3.395806] (vision) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.395835] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::detectCone(const cv::Mat&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.395865] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:113:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMainWindow::updateStatus(const char [10], const string&, const char [5])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.395899] (vision) StderrLine: {'line': b'  113 |         \x1b[01;31m\x1b[KupdateStatus("whiteline", color, "NONE")\x1b[m\x1b[K;\n'}
+[3.395930] (vision) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.395963] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1\x1b[m\x1b[K:\n'}
+[3.395995] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:47:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateStatus(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.396026] (vision) StderrLine: {'line': b'   47 |     void \x1b[01;36m\x1b[KupdateStatus\x1b[m\x1b[K(const std::string &color, const std::string &pos);\n'}
+[3.396062] (vision) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.396126] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:47:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 3 provided\n'}
+[3.396183] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:132:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMainWindow::updateStatus(const char [10], const string&, std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.396223] (vision) StderrLine: {'line': b'  132 |     \x1b[01;31m\x1b[KupdateStatus("whiteline", color, pos)\x1b[m\x1b[K;\n'}
+[3.396257] (vision) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.396288] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1\x1b[m\x1b[K:\n'}
+[3.396319] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:47:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateStatus(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.396351] (vision) StderrLine: {'line': b'   47 |     void \x1b[01;36m\x1b[KupdateStatus\x1b[m\x1b[K(const std::string &color, const std::string &pos);\n'}
+[3.396381] (vision) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.396411] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:47:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 3 provided\n'}
+[3.396548] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.396629] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:145:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateStatus(const string&, const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.396676] (vision) StderrLine: {'line': b'  145 | void \x1b[01;31m\x1b[KMainWindow\x1b[m\x1b[K::updateStatus(const std::string &line, const std::string &color, const std::string &pos) {\n'}
+[3.396714] (vision) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.396748] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1\x1b[m\x1b[K:\n'}
+[3.396780] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:47:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateStatus(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.396813] (vision) StderrLine: {'line': b'   47 |     void \x1b[01;36m\x1b[KupdateStatus\x1b[m\x1b[K(const std::string &color, const std::string &pos);\n'}
+[3.396845] (vision) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.396876] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:16:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MainWindow\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[3.396916] (vision) StderrLine: {'line': b'   16 | class \x1b[01;36m\x1b[KMainWindow\x1b[m\x1b[K : public QMainWindow {\n'}
+[3.396948] (vision) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.404660] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:266:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::detectCone(const cv::Mat&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.404915] (vision) StderrLine: {'line': b'  266 | void \x1b[01;31m\x1b[KMainWindow\x1b[m\x1b[K::detectCone(const cv::Mat &mask, const std::string &color) {\n'}
+[3.405004] (vision) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.405068] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:109:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::detectCone(const cv::Mat&, const string&)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[3.405128] (vision) StderrLine: {'line': b'  109 | void \x1b[01;36m\x1b[KMainWindow\x1b[m\x1b[K::detectCone(const cv::Mat &mask, const std::string &color) {\n'}
+[3.405328] (vision) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.405398] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateStatus(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.405473] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:300:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass Ui::MainWindowDesign\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kwhitelineredstatus\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kwhitlelineredstatus\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.405545] (vision) StderrLine: {'line': b'  300 |         ui->\x1b[01;31m\x1b[Kwhitelineredstatus\x1b[m\x1b[K->setText(QString::fromStdString(pos));\n'}
+[3.405606] (vision) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.405668] (vision) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kwhitlelineredstatus\x1b[m\x1b[K\n'}
+[3.405718] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.405782] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:305:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::showMask(const cv::Mat&, QLabel*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.405841] (vision) StderrLine: {'line': b'  305 | void \x1b[01;31m\x1b[KMainWindow\x1b[m\x1b[K::showMask(const cv::Mat &mask, QLabel *label) {\n'}
+[3.405896] (vision) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.405949] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:157:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::showMask(const cv::Mat&, QLabel*)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[3.406005] (vision) StderrLine: {'line': b'  157 | void \x1b[01;36m\x1b[KMainWindow\x1b[m\x1b[K::showMask(const cv::Mat &mask, QLabel *label) {\n'}
+[3.406059] (vision) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.409566] (-) TimerEvent: {}
+[3.509856] (-) TimerEvent: {}
+[3.610211] (-) TimerEvent: {}
+[3.710505] (-) TimerEvent: {}
+[3.810794] (-) TimerEvent: {}
+[3.911096] (-) TimerEvent: {}
+[4.011411] (-) TimerEvent: {}
+[4.111706] (-) TimerEvent: {}
+[4.127851] (vision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/vision.dir/build.make:111: CMakeFiles/vision.dir/src/mainwindow.cpp.o] Error 1\n'}
+[4.127999] (vision) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.211810] (-) TimerEvent: {}
+[4.312148] (-) TimerEvent: {}
+[4.412478] (-) TimerEvent: {}
+[4.512753] (-) TimerEvent: {}
+[4.613029] (-) TimerEvent: {}
+[4.713406] (-) TimerEvent: {}
+[4.813824] (-) TimerEvent: {}
+[4.914235] (-) TimerEvent: {}
+[5.014599] (-) TimerEvent: {}
+[5.115034] (-) TimerEvent: {}
+[5.215413] (-) TimerEvent: {}
+[5.315848] (-) TimerEvent: {}
+[5.416245] (-) TimerEvent: {}
+[5.516560] (-) TimerEvent: {}
+[5.616860] (-) TimerEvent: {}
+[5.717214] (-) TimerEvent: {}
+[5.817492] (-) TimerEvent: {}
+[5.917768] (-) TimerEvent: {}
+[6.018117] (-) TimerEvent: {}
+[6.118537] (-) TimerEvent: {}
+[6.218965] (-) TimerEvent: {}
+[6.319401] (-) TimerEvent: {}
+[6.419830] (-) TimerEvent: {}
+[6.520251] (-) TimerEvent: {}
+[6.620668] (-) TimerEvent: {}
+[6.721065] (-) TimerEvent: {}
+[6.821463] (-) TimerEvent: {}
+[6.921776] (-) TimerEvent: {}
+[7.022053] (-) TimerEvent: {}
+[7.122352] (-) TimerEvent: {}
+[7.222652] (-) TimerEvent: {}
+[7.322974] (-) TimerEvent: {}
+[7.423280] (-) TimerEvent: {}
+[7.523566] (-) TimerEvent: {}
+[7.623907] (-) TimerEvent: {}
+[7.637297] (vision) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/vision.dir/all] Error 2\n'}
+[7.637625] (vision) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.639745] (vision) CommandEnded: {'returncode': 2}
+[7.646204] (vision) JobEnded: {'identifier': 'vision', 'rc': 2}
+[7.656848] (-) EventReactorShutdown: {}

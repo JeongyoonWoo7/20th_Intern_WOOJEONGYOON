@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.000192] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.000231] (vision) JobStarted: {'identifier': 'vision'}
+[0.005967] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.006528] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.006933] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jy/colcon_ws/src/vision/build/vision', '--', '-j16', '-l16'], 'cwd': '/home/jy/colcon_ws/src/vision/build/vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jy'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jy'), ('OLDPWD', '/home/jy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1727'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jy/colcon_ws/src/vision/install:/home/jy/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.4/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jy:@/tmp/.ICE-unix/1704,unix/jy:/tmp/.ICE-unix/1704'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f5d7dca6_cc2d_47ba_ab73_274b773d61ee'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.302'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/jy/colcon_ws/src/vision/install/vision:/home/jy/colcon_ws/install/vision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jy/colcon_ws/src/vision/build/vision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jy/colcon_ws/src/vision/install/vision:/home/jy/colcon_ws/install/vision:/opt/ros/humble')]), 'shell': False}
+[0.029655] (vision) StdoutLine: {'line': b'[  9%] \x1b[1m\x1b[34mGenerating include/vision/moc_mainwindow.cpp\x1b[0m\n'}
+[0.091286] (vision) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/main.cpp.o\x1b[0m\n'}
+[0.092963] (vision) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/mainwindow.cpp.o\x1b[0m\n'}
+[0.093085] (vision) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/qnode.cpp.o\x1b[0m\n'}
+[0.093515] (vision) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/include/vision/moc_mainwindow.cpp.o\x1b[0m\n'}
+[0.099336] (-) TimerEvent: {}
+[0.199621] (-) TimerEvent: {}
+[0.299958] (-) TimerEvent: {}
+[0.400339] (-) TimerEvent: {}
+[0.500632] (-) TimerEvent: {}
+[0.600945] (-) TimerEvent: {}
+[0.701245] (-) TimerEvent: {}
+[0.801572] (-) TimerEvent: {}
+[0.901878] (-) TimerEvent: {}
+[1.002187] (-) TimerEvent: {}
+[1.102513] (-) TimerEvent: {}
+[1.202812] (-) TimerEvent: {}
+[1.303083] (-) TimerEvent: {}
+[1.403403] (-) TimerEvent: {}
+[1.503719] (-) TimerEvent: {}
+[1.604007] (-) TimerEvent: {}
+[1.704410] (-) TimerEvent: {}
+[1.804713] (-) TimerEvent: {}
+[1.905019] (-) TimerEvent: {}
+[2.005331] (-) TimerEvent: {}
+[2.105666] (-) TimerEvent: {}
+[2.205990] (-) TimerEvent: {}
+[2.306344] (-) TimerEvent: {}
+[2.406631] (-) TimerEvent: {}
+[2.506941] (-) TimerEvent: {}
+[2.607290] (-) TimerEvent: {}
+[2.707582] (-) TimerEvent: {}
+[2.807844] (-) TimerEvent: {}
+[2.908149] (-) TimerEvent: {}
+[3.008535] (-) TimerEvent: {}
+[3.108860] (-) TimerEvent: {}
+[3.153954] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/qnode.cpp:1\x1b[m\x1b[K:\n'}
+[3.154139] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:31:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateCameraFrame()\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateCameraFrame()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.154197] (vision) StderrLine: {'line': b'   31 |     void \x1b[01;31m\x1b[KupdateCameraFrame\x1b[m\x1b[K();\n'}
+[3.154232] (vision) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.154263] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:24:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateCameraFrame()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.154316] (vision) StderrLine: {'line': b'   24 |     void \x1b[01;36m\x1b[KupdateCameraFrame\x1b[m\x1b[K();\n'}
+[3.154377] (vision) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.175068] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1\x1b[m\x1b[K:\n'}
+[3.175357] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:31:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateCameraFrame()\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateCameraFrame()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.175456] (vision) StderrLine: {'line': b'   31 |     void \x1b[01;31m\x1b[KupdateCameraFrame\x1b[m\x1b[K();\n'}
+[3.175524] (vision) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.175583] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:24:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateCameraFrame()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.175642] (vision) StderrLine: {'line': b'   24 |     void \x1b[01;36m\x1b[KupdateCameraFrame\x1b[m\x1b[K();\n'}
+[3.175697] (vision) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.178757] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/build/vision/include/vision/moc_mainwindow.cpp:10\x1b[m\x1b[K:\n'}
+[3.178891] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/build/vision/include/vision/../../../../include/vision/mainwindow.hpp:31:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateCameraFrame()\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateCameraFrame()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.178945] (vision) StderrLine: {'line': b'   31 |     void \x1b[01;31m\x1b[KupdateCameraFrame\x1b[m\x1b[K();\n'}
+[3.178990] (vision) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.179032] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/build/vision/include/vision/../../../../include/vision/mainwindow.hpp:24:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateCameraFrame()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.179077] (vision) StderrLine: {'line': b'   24 |     void \x1b[01;36m\x1b[KupdateCameraFrame\x1b[m\x1b[K();\n'}
+[3.179118] (vision) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.188325] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[3.188550] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:31:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateCameraFrame()\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateCameraFrame()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.188649] (vision) StderrLine: {'line': b'   31 |     void \x1b[01;31m\x1b[KupdateCameraFrame\x1b[m\x1b[K();\n'}
+[3.188710] (vision) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.188775] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:24:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateCameraFrame()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.188839] (vision) StderrLine: {'line': b'   24 |     void \x1b[01;36m\x1b[KupdateCameraFrame\x1b[m\x1b[K();\n'}
+[3.188897] (vision) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.197110] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:105:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::on_btncapture_clicked()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.197298] (vision) StderrLine: {'line': b'  105 | void \x1b[01;31m\x1b[KMainWindow\x1b[m\x1b[K::on_btncapture_clicked() {\n'}
+[3.197399] (vision) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.197487] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:75:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::on_btncapture_clicked()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[3.197589] (vision) StderrLine: {'line': b'   75 | void \x1b[01;36m\x1b[KMainWindow\x1b[m\x1b[K::on_btncapture_clicked() {\n'}
+[3.197674] (vision) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.204169] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::updateStatus(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.204411] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:206:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass Ui::MainWindowDesign\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kwhitelineredstatus\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kwhitlelineredstatus\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.204452] (vision) StderrLine: {'line': b'  206 |         ui->\x1b[01;31m\x1b[Kwhitelineredstatus\x1b[m\x1b[K->setText(QString::fromStdString(pos));\n'}
+[3.204486] (vision) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.204522] (vision) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kwhitlelineredstatus\x1b[m\x1b[K\n'}
+[3.208948] (-) TimerEvent: {}
+[3.309225] (-) TimerEvent: {}
+[3.409541] (-) TimerEvent: {}
+[3.509835] (-) TimerEvent: {}
+[3.610200] (-) TimerEvent: {}
+[3.710576] (-) TimerEvent: {}
+[3.810838] (-) TimerEvent: {}
+[3.837988] (vision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/vision.dir/build.make:139: CMakeFiles/vision.dir/include/vision/moc_mainwindow.cpp.o] Error 1\n'}
+[3.838166] (vision) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.870757] (vision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/vision.dir/build.make:97: CMakeFiles/vision.dir/src/main.cpp.o] Error 1\n'}
+[3.886964] (vision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/vision.dir/build.make:111: CMakeFiles/vision.dir/src/mainwindow.cpp.o] Error 1\n'}
+[3.910928] (-) TimerEvent: {}
+[4.011172] (-) TimerEvent: {}
+[4.111424] (-) TimerEvent: {}
+[4.211668] (-) TimerEvent: {}
+[4.311958] (-) TimerEvent: {}
+[4.412242] (-) TimerEvent: {}
+[4.512580] (-) TimerEvent: {}
+[4.612942] (-) TimerEvent: {}
+[4.679388] (vision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/vision.dir/build.make:125: CMakeFiles/vision.dir/src/qnode.cpp.o] Error 1\n'}
+[4.680061] (vision) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/vision.dir/all] Error 2\n'}
+[4.680342] (vision) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.682162] (vision) CommandEnded: {'returncode': 2}
+[4.688336] (vision) JobEnded: {'identifier': 'vision', 'rc': 2}
+[4.698725] (-) EventReactorShutdown: {}

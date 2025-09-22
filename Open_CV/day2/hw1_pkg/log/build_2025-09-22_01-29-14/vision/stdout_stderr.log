@@ -1,0 +1,25 @@
+[  9%] [1m[34mGenerating include/vision/moc_mainwindow.cpp[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/vision.dir/src/main.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/vision.dir/src/mainwindow.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/vision.dir/include/vision/moc_mainwindow.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/vision.dir/src/qnode.cpp.o[0m
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::processColorDetection(const cv::Mat&)[m[K’:
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:173:28:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  173 | void MainWindow::detectCone[01;31m[K([m[Kconst cv::Mat &mask,
+      |                            [01;31m[K^[m[K
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:207:30:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  207 | void MainWindow::updateStatus[01;31m[K([m[Kconst std::string &line,
+      |                              [01;31m[K^[m[K
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:227:26:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  227 | void MainWindow::showMask[01;31m[K([m[Kconst cv::Mat &mask, QLabel *label)
+      |                          [01;31m[K^[m[K
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:233:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  233 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:142:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  142 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/vision.dir/build.make:111: CMakeFiles/vision.dir/src/mainwindow.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/vision.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

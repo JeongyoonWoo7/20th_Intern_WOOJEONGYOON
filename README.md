@@ -38,6 +38,10 @@
     - hw1    O
     - hw2    O
     
- - OpenCV
+- OpenCV
+  - day1     O
     - hw1    O
     - hw2    O
+    
+  - day2
+    - hw1    X 콘의 위치 구현 못함

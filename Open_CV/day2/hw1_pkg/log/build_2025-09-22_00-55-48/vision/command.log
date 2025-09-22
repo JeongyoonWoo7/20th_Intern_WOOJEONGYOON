@@ -1,0 +1,4 @@
+Invoking command in '/home/jy/colcon_ws/src/vision/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jy/colcon_ws/src/vision -DCMAKE_INSTALL_PREFIX=/home/jy/colcon_ws/src/vision/install/vision
+Invoked command in '/home/jy/colcon_ws/src/vision/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jy/colcon_ws/src/vision -DCMAKE_INSTALL_PREFIX=/home/jy/colcon_ws/src/vision/install/vision
+Invoking command in '/home/jy/colcon_ws/src/vision/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jy/colcon_ws/src/vision/build/vision -- -j16 -l16
+Invoked command in '/home/jy/colcon_ws/src/vision/build/vision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jy/colcon_ws/src/vision/build/vision -- -j16 -l16

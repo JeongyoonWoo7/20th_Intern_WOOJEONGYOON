@@ -1,0 +1,21 @@
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::on_btnwhiteline_clicked()[m[K’:
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:97:5:[m[K [01;31m[Kerror: [m[K‘[01m[KprocessLaneDetection[m[K’ was not declared in this scope
+   97 |     [01;31m[KprocessLaneDetection[m[K("whiteline");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::on_btnblueline_clicked()[m[K’:
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:102:5:[m[K [01;31m[Kerror: [m[K‘[01m[KprocessLaneDetection[m[K’ was not declared in this scope
+  102 |     [01;31m[KprocessLaneDetection[m[K("blueline");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:[m[K At global scope:
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:107:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid MainWindow::processLaneDetection(const string&)[m[K’
+  107 | void [01;31m[KMainWindow[m[K::processLaneDetection(const std::string &mode) {
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:107:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid MainWindow::processLaneDetection(const string&)[m[K’
+In file included from [01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1[m[K:
+[01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:16:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MainWindow[m[K’ defined here
+   16 | class [01;36m[KMainWindow[m[K : public QMainWindow {
+      |       [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/vision.dir/build.make:111: CMakeFiles/vision.dir/src/mainwindow.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/vision.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,33 @@
+[0.008s] Invoking command in '/home/jy/colcon_ws/src/vision/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jy/colcon_ws/src/vision/build/vision -- -j16 -l16
+[0.027s] [  9%] [1m[34mGenerating include/vision/moc_mainwindow.cpp[0m
+[0.096s] [ 36%] [32mBuilding CXX object CMakeFiles/vision.dir/src/qnode.cpp.o[0m
+[0.096s] [ 36%] [32mBuilding CXX object CMakeFiles/vision.dir/src/main.cpp.o[0m
+[0.096s] [ 36%] [32mBuilding CXX object CMakeFiles/vision.dir/src/mainwindow.cpp.o[0m
+[0.096s] [ 45%] [32mBuilding CXX object CMakeFiles/vision.dir/include/vision/moc_mainwindow.cpp.o[0m
+[7.519s] [ 54%] [1m[32mLinking CXX executable vision[0m
+[8.899s] [100%] Built target vision
+[8.903s] Invoked command in '/home/jy/colcon_ws/src/vision/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jy/colcon_ws/src/vision/build/vision -- -j16 -l16
+[8.907s] Invoking command in '/home/jy/colcon_ws/src/vision/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jy/colcon_ws/src/vision/build/vision
+[8.910s] -- Install configuration: ""
+[8.911s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/lib/vision/vision
+[8.913s] -- Set non-toolchain portion of runtime path of "/home/jy/colcon_ws/src/vision/install/vision/lib/vision/vision" to ""
+[8.913s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/include/
+[8.914s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/include//vision
+[8.914s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/include//vision/mainwindow.hpp
+[8.914s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/include//vision/qnode.hpp
+[8.914s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/ament_index/resource_index/package_run_dependencies/vision
+[8.914s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/ament_index/resource_index/parent_prefix_path/vision
+[8.914s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/environment/ament_prefix_path.sh
+[8.914s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/environment/ament_prefix_path.dsv
+[8.914s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/environment/path.sh
+[8.914s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/environment/path.dsv
+[8.914s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/local_setup.bash
+[8.914s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/local_setup.sh
+[8.914s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/local_setup.zsh
+[8.915s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/local_setup.dsv
+[8.915s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/package.dsv
+[8.915s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/ament_index/resource_index/packages/vision
+[8.915s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/cmake/visionConfig.cmake
+[8.915s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/cmake/visionConfig-version.cmake
+[8.915s] -- Installing: /home/jy/colcon_ws/src/vision/install/vision/share/vision/package.xml
+[8.916s] Invoked command in '/home/jy/colcon_ws/src/vision/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jy/colcon_ws/src/vision/build/vision

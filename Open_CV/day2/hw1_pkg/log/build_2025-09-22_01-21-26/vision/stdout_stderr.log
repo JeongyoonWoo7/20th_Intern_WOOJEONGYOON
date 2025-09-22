@@ -1,0 +1,94 @@
+[  9%] [1m[34mGenerating include/vision/moc_mainwindow.cpp[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/vision.dir/src/main.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/vision.dir/src/qnode.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/vision.dir/src/mainwindow.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/vision.dir/include/vision/moc_mainwindow.cpp.o[0m
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::updateCameraFrame()[m[K’:
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:62:26:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   62 |     processLaneDetection([01;31m[Kframe[m[K);
+      |                          [01;31m[K^~~~~[m[K
+      |                          [01;31m[K|[m[K
+      |                          [01;31m[Kcv::Mat[m[K
+In file included from [01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1[m[K:
+[01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:44:50:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid MainWindow::processLaneDetection(const string&)[m[K’
+   44 |     void processLaneDetection([01;36m[Kconst std::string &mode[m[K);
+      |                               [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:63:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMainWindow::processColorDetection(cv::Mat&)[m[K’
+   63 |     [01;31m[KprocessColorDetection(frame)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1[m[K:
+[01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:45:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid MainWindow::processColorDetection()[m[K’
+   45 |     void [01;36m[KprocessColorDetection[m[K();
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:45:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:[m[K At global scope:
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:66:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid MainWindow::processLaneDetection(const cv::Mat&)[m[K’
+   66 | void [01;31m[KMainWindow[m[K::processLaneDetection(const cv::Mat &frame) {
+      |      [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1[m[K:
+[01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:44:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid MainWindow::processLaneDetection(const string&)[m[K’
+   44 |     void [01;36m[KprocessLaneDetection[m[K(const std::string &mode);
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:16:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MainWindow[m[K’ defined here
+   16 | class [01;36m[KMainWindow[m[K : public QMainWindow {
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:94:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid MainWindow::processColorDetection(const cv::Mat&)[m[K’
+   94 | void [01;31m[KMainWindow[m[K::processColorDetection(const cv::Mat &frame) {
+      |      [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1[m[K:
+[01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:45:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid MainWindow::processColorDetection()[m[K’
+   45 |     void [01;36m[KprocessColorDetection[m[K();
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:16:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MainWindow[m[K’ defined here
+   16 | class [01;36m[KMainWindow[m[K : public QMainWindow {
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::detectCone(const cv::Mat&, const string&)[m[K’:
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:113:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMainWindow::updateStatus(const char [10], const string&, const char [5])[m[K’
+  113 |         [01;31m[KupdateStatus("whiteline", color, "NONE")[m[K;
+      |         [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1[m[K:
+[01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:47:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid MainWindow::updateStatus(const string&, const string&)[m[K’
+   47 |     void [01;36m[KupdateStatus[m[K(const std::string &color, const std::string &pos);
+      |          [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:47:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:132:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMainWindow::updateStatus(const char [10], const string&, std::string&)[m[K’
+  132 |     [01;31m[KupdateStatus("whiteline", color, pos)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1[m[K:
+[01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:47:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid MainWindow::updateStatus(const string&, const string&)[m[K’
+   47 |     void [01;36m[KupdateStatus[m[K(const std::string &color, const std::string &pos);
+      |          [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:47:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:[m[K At global scope:
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:145:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid MainWindow::updateStatus(const string&, const string&, const string&)[m[K’
+  145 | void [01;31m[KMainWindow[m[K::updateStatus(const std::string &line, const std::string &color, const std::string &pos) {
+      |      [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:1[m[K:
+[01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:47:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid MainWindow::updateStatus(const string&, const string&)[m[K’
+   47 |     void [01;36m[KupdateStatus[m[K(const std::string &color, const std::string &pos);
+      |          [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp:16:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MainWindow[m[K’ defined here
+   16 | class [01;36m[KMainWindow[m[K : public QMainWindow {
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:266:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid MainWindow::detectCone(const cv::Mat&, const string&)[m[K’
+  266 | void [01;31m[KMainWindow[m[K::detectCone(const cv::Mat &mask, const std::string &color) {
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:109:6:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid MainWindow::detectCone(const cv::Mat&, const string&)[m[K’ previously defined here
+  109 | void [01;36m[KMainWindow[m[K::detectCone(const cv::Mat &mask, const std::string &color) {
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::updateStatus(const string&, const string&)[m[K’:
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:300:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindowDesign[m[K’ has no member named ‘[01m[Kwhitelineredstatus[m[K’; did you mean ‘[01m[Kwhitlelineredstatus[m[K’?
+  300 |         ui->[01;31m[Kwhitelineredstatus[m[K->setText(QString::fromStdString(pos));
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Kwhitlelineredstatus[m[K
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:[m[K At global scope:
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:305:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid MainWindow::showMask(const cv::Mat&, QLabel*)[m[K’
+  305 | void [01;31m[KMainWindow[m[K::showMask(const cv::Mat &mask, QLabel *label) {
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:157:6:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid MainWindow::showMask(const cv::Mat&, QLabel*)[m[K’ previously defined here
+  157 | void [01;36m[KMainWindow[m[K::showMask(const cv::Mat &mask, QLabel *label) {
+      |      [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/vision.dir/build.make:111: CMakeFiles/vision.dir/src/mainwindow.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/vision.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

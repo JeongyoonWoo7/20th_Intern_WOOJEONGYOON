@@ -1,0 +1,5 @@
+-I/home/jy/colcon_ws/src/vision/include
+-I/usr/include/opencv4
+-o
+/home/jy/colcon_ws/src/vision/build/vision/include/vision/moc_mainwindow.cpp
+/home/jy/colcon_ws/src/vision/include/vision/mainwindow.hpp

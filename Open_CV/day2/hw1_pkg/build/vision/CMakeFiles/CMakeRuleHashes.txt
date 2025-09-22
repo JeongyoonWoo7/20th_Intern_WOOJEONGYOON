@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+79d0e03950740b0e351c2446bfd2520e CMakeFiles/vision_uninstall
+562b2febc72b12b65aa19c4ab7031990 include/vision/moc_mainwindow.cpp
+c16aaceca53041d9b6b140070764f706 include/vision/moc_qnode.cpp
+b262d34b6ad2e5d5cb4ee4dbd138012a qrc_images.cpp
+a9e1fe38f8460aa315a357048b0a54e8 ui_mainwindow.h

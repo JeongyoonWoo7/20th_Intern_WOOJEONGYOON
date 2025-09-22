@@ -1,0 +1,10 @@
+[0.008s] Invoking command in '/home/jy/colcon_ws/src/vision/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jy/colcon_ws/src/vision/build/vision -- -j16 -l16
+[0.055s] [  9%] [32mBuilding CXX object CMakeFiles/vision.dir/src/mainwindow.cpp.o[0m
+[3.306s] [ 18%] [1m[32mLinking CXX executable vision[0m
+[4.623s] /usr/bin/ld: CMakeFiles/vision.dir/src/mainwindow.cpp.o: in function `MainWindow::on_btncapture_clicked()':
+[4.623s] mainwindow.cpp:(.text+0xb4a): undefined reference to `MainWindow::processColorDetection()'
+[4.692s] collect2: error: ld returned 1 exit status
+[4.693s] gmake[2]: *** [CMakeFiles/vision.dir/build.make:335: vision] Error 1
+[4.693s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/vision.dir/all] Error 2
+[4.693s] gmake: *** [Makefile:146: all] Error 2
+[4.695s] Invoked command in '/home/jy/colcon_ws/src/vision/build/vision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jy/colcon_ws/src/vision/build/vision -- -j16 -l16

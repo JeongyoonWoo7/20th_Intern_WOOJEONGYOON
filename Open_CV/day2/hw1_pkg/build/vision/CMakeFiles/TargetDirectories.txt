@@ -1,0 +1,10 @@
+/home/jy/colcon_ws/src/vision/build/vision/CMakeFiles/uninstall.dir
+/home/jy/colcon_ws/src/vision/build/vision/CMakeFiles/vision_uninstall.dir
+/home/jy/colcon_ws/src/vision/build/vision/CMakeFiles/vision.dir
+/home/jy/colcon_ws/src/vision/build/vision/CMakeFiles/test.dir
+/home/jy/colcon_ws/src/vision/build/vision/CMakeFiles/edit_cache.dir
+/home/jy/colcon_ws/src/vision/build/vision/CMakeFiles/rebuild_cache.dir
+/home/jy/colcon_ws/src/vision/build/vision/CMakeFiles/list_install_components.dir
+/home/jy/colcon_ws/src/vision/build/vision/CMakeFiles/install.dir
+/home/jy/colcon_ws/src/vision/build/vision/CMakeFiles/install/local.dir
+/home/jy/colcon_ws/src/vision/build/vision/CMakeFiles/install/strip.dir

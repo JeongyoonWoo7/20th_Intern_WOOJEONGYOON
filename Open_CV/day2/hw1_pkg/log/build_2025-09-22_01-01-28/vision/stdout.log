@@ -1,0 +1,5 @@
+[  9%] [1m[34mGenerating include/vision/moc_mainwindow.cpp[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/vision.dir/src/main.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/vision.dir/src/mainwindow.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/vision.dir/src/qnode.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/vision.dir/include/vision/moc_mainwindow.cpp.o[0m

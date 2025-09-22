@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000355] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.000439] (vision) JobStarted: {'identifier': 'vision'}
+[0.005427] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.005743] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.006133] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jy/colcon_ws/src/vision/build/vision', '--', '-j16', '-l16'], 'cwd': '/home/jy/colcon_ws/src/vision/build/vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jy'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jy'), ('OLDPWD', '/home/jy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1727'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jy/colcon_ws/src/vision/install:/home/jy/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.4/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jy:@/tmp/.ICE-unix/1704,unix/jy:/tmp/.ICE-unix/1704'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f5d7dca6_cc2d_47ba_ab73_274b773d61ee'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.302'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/jy/colcon_ws/src/vision/install/vision:/home/jy/colcon_ws/install/vision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jy/colcon_ws/src/vision/build/vision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jy/colcon_ws/src/vision/install/vision:/home/jy/colcon_ws/install/vision:/opt/ros/humble')]), 'shell': False}
+[0.029146] (vision) StdoutLine: {'line': b'[  9%] \x1b[1m\x1b[34mGenerating include/vision/moc_mainwindow.cpp\x1b[0m\n'}
+[0.095466] (vision) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/main.cpp.o\x1b[0m\n'}
+[0.095629] (vision) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/mainwindow.cpp.o\x1b[0m\n'}
+[0.095718] (vision) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/qnode.cpp.o\x1b[0m\n'}
+[0.095839] (vision) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/include/vision/moc_mainwindow.cpp.o\x1b[0m\n'}
+[0.099816] (-) TimerEvent: {}
+[0.200108] (-) TimerEvent: {}
+[0.300397] (-) TimerEvent: {}
+[0.400739] (-) TimerEvent: {}
+[0.501166] (-) TimerEvent: {}
+[0.601497] (-) TimerEvent: {}
+[0.701801] (-) TimerEvent: {}
+[0.802142] (-) TimerEvent: {}
+[0.902405] (-) TimerEvent: {}
+[1.002713] (-) TimerEvent: {}
+[1.102978] (-) TimerEvent: {}
+[1.203227] (-) TimerEvent: {}
+[1.303484] (-) TimerEvent: {}
+[1.403769] (-) TimerEvent: {}
+[1.503983] (-) TimerEvent: {}
+[1.604264] (-) TimerEvent: {}
+[1.704544] (-) TimerEvent: {}
+[1.804939] (-) TimerEvent: {}
+[1.905317] (-) TimerEvent: {}
+[2.005615] (-) TimerEvent: {}
+[2.105953] (-) TimerEvent: {}
+[2.206317] (-) TimerEvent: {}
+[2.306739] (-) TimerEvent: {}
+[2.407226] (-) TimerEvent: {}
+[2.507548] (-) TimerEvent: {}
+[2.607822] (-) TimerEvent: {}
+[2.708096] (-) TimerEvent: {}
+[2.808374] (-) TimerEvent: {}
+[2.908685] (-) TimerEvent: {}
+[3.008975] (-) TimerEvent: {}
+[3.109421] (-) TimerEvent: {}
+[3.209726] (-) TimerEvent: {}
+[3.309989] (-) TimerEvent: {}
+[3.410326] (-) TimerEvent: {}
+[3.457952] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::on_btncapture_clicked()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.458148] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:77:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KlastCaptured\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.458214] (vision) StderrLine: {'line': b'   77 |         cap >> \x1b[01;31m\x1b[KlastCaptured\x1b[m\x1b[K;\n'}
+[3.458270] (vision) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.464074] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.464290] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:147:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::processLaneDetection(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.464392] (vision) StderrLine: {'line': b'  147 | void \x1b[01;31m\x1b[KMainWindow\x1b[m\x1b[K::processLaneDetection(const std::string &mode) {\n'}
+[3.464480] (vision) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.464563] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:106:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::processLaneDetection(const string&)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[3.464664] (vision) StderrLine: {'line': b'  106 | void \x1b[01;36m\x1b[KMainWindow\x1b[m\x1b[K::processLaneDetection(const std::string &mode) {\n'}
+[3.464720] (vision) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.474910] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MainWindow::processColorDetection()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.475083] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:186:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KlastCaptured\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.475142] (vision) StderrLine: {'line': b'  186 |     if (\x1b[01;31m\x1b[KlastCaptured\x1b[m\x1b[K.empty()) return;\n'}
+[3.475194] (vision) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.485629] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jy/colcon_ws/src/vision/src/mainwindow.cpp:189:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KlastCaptured\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.485836] (vision) StderrLine: {'line': b'  189 |     cv::cvtColor(\x1b[01;31m\x1b[KlastCaptured\x1b[m\x1b[K, hsv, cv::COLOR_BGR2HSV);\n'}
+[3.485894] (vision) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.510424] (-) TimerEvent: {}
+[3.610764] (-) TimerEvent: {}
+[3.711155] (-) TimerEvent: {}
+[3.811415] (-) TimerEvent: {}
+[3.911698] (-) TimerEvent: {}
+[4.011957] (-) TimerEvent: {}
+[4.112211] (-) TimerEvent: {}
+[4.186260] (vision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/vision.dir/build.make:111: CMakeFiles/vision.dir/src/mainwindow.cpp.o] Error 1\n'}
+[4.186416] (vision) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.212300] (-) TimerEvent: {}
+[4.312591] (-) TimerEvent: {}
+[4.412850] (-) TimerEvent: {}
+[4.513213] (-) TimerEvent: {}
+[4.613596] (-) TimerEvent: {}
+[4.714012] (-) TimerEvent: {}
+[4.814503] (-) TimerEvent: {}
+[4.914833] (-) TimerEvent: {}
+[5.015192] (-) TimerEvent: {}
+[5.115516] (-) TimerEvent: {}
+[5.215844] (-) TimerEvent: {}
+[5.316250] (-) TimerEvent: {}
+[5.416641] (-) TimerEvent: {}
+[5.517041] (-) TimerEvent: {}
+[5.617379] (-) TimerEvent: {}
+[5.717716] (-) TimerEvent: {}
+[5.818046] (-) TimerEvent: {}
+[5.918360] (-) TimerEvent: {}
+[6.018645] (-) TimerEvent: {}
+[6.118972] (-) TimerEvent: {}
+[6.219249] (-) TimerEvent: {}
+[6.319610] (-) TimerEvent: {}
+[6.420005] (-) TimerEvent: {}
+[6.520320] (-) TimerEvent: {}
+[6.620639] (-) TimerEvent: {}
+[6.721023] (-) TimerEvent: {}
+[6.821343] (-) TimerEvent: {}
+[6.921666] (-) TimerEvent: {}
+[7.022029] (-) TimerEvent: {}
+[7.122417] (-) TimerEvent: {}
+[7.222741] (-) TimerEvent: {}
+[7.323082] (-) TimerEvent: {}
+[7.379960] (vision) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/vision.dir/all] Error 2\n'}
+[7.380266] (vision) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.382290] (vision) CommandEnded: {'returncode': 2}
+[7.387884] (vision) JobEnded: {'identifier': 'vision', 'rc': 2}
+[7.398277] (-) EventReactorShutdown: {}
